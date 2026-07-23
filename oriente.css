@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Esconder barra de rolagem mas manter navegação */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Transições suaves para modais e botões */
+.transition-all {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Utilitário para imagens responsivas mantendo proporção */
+.img-fit-contain {
+  object-fit: contain;
+  max-height: 80vh;
+}
